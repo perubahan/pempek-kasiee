@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pempek Kemplang Kasiee</title>
+    <meta name="description" content="Pempek Kemplang Kasiee Kuliner khas Palembang menjadi citra tersendiri yang tidak lain yaitu Pempek jika ke Palembang maka kurang rasanya kalau belum mencoba hidangan kuliner Pempek, 
+    maka tidak salah mencoba Pempek buatan kami 'Pempek Kemplang Kasiee' dengan rasa yang khas buatan kami">
+    <meta name="keywords" content="Pempek Kemplang Kasiee, Pempek Palembang, Palembang">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" href="gambar/logo.jpeg" type="image/x-icon">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--font awesome cnd link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+
+</head>
+<body>
+ <!-- Navbar -->
+ <header>
+    <a href="#" class="logo">
+        <img src="gambar/logo2.png" alt="Pempek Kemplang Kasiee"> <h4> Pempek Kemplang Kasiee</h4> 
+    </a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <!-- Menu -->
+    <ul class="navbar">
+        <li><a href="#home" class="home-active">Home</a></li>
+        <li><a href="#galeri">Produk</a></li>
+        <li><a href="#steps">Pemesanan</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+    </ul>
+</header>
+
+<!-- Home -->
+<section class="home swiper" id="home">
+    <div class="swiper-wrapper">
+        <!--Box 1-->
+        <div class="swiper-slide conatiner">
+            <img src="https://img.freepik.com/premium-vector/ampera-bridge-south-sumatra-indonesia-famous-landmark-building-sunset-landscape-concept-cartoon-illustration_201904-483.jpg?size=626&ext=jpg&uid=R96682043&ga=GA1.2.1737296402.1670565112&semt=sph" alt="pempek palembang">
+            <div class="home-text">
+                <h1>Selamat Datang</h1>
+                <p>Terima kasih telah mengunjungi halaman website kami, Pempek Kemplang Kasiee kuliner khas Palembang. </p>  
+            </div>
+        </div>
+        
+        <!--Box 2-->
+        <div class="swiper-slide conatiner">
+            <img src="https://phm-hotels.com/static/uploads/images/media-b4db482f-05af-4af4-986a-f0af80ee28a9.jpg?w=370&h=370&mode=crop" alt="kasiee">
+            <div class="home-text">
+                <h1>Keliling Kota</h1>
+                <p>Mari jalan-jalan ke Kota Palembang jangan lupa mencoba jajanan khas Palembang Pempek Kemplang Kasiee yang ada di sini.</p>                
+            </div>
+        </div>
+
+        <!--Box 3-->
+        <div class="swiper-slide conatiner">
+            <img src="data:image/jpeg;base64,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" alt="">
+            <div class="home-text">
+                <h1>Wisata Kuliner</h1>
+                <p>Berkeliling menyelusuri sudut Kota Palembang jangan lupa mampir ke tempat kami Pempek Kemplang Kasiee.</p>
+                
+            </div>
+        </div>
+        
+      </div>
+      
+      <div class="swiper-pagination"></div>
+</section>
+
+<!-- Program -->
+<section class="program" id="program">
+
+    <h1 class="heading"> Pempek <span>Kemplang</span> Kasiee</h1>
+    
+    <div class="banner">
+        <video src="gambar/Commercial Video for PEMPEK K3.mp4" muted autoplay loop type="mp4"></video>
+        <div class="textBox">
+            <p>Kuliner khas Palembang menjadi citra tersendiri yang tidak lain yaitu Pempek. 
+                jika ke Palembang maka kurang rasanya kalau belum mencoba hidangan kuliner Pempek, 
+                maka tidak salah mencoba Pempek buatan kami 'Pempek Kemplang Kasiee' dengan rasa yang khas buatan kami.
+            </p>
+            <p>
+                Silakan bisa dipesan Pempek produksi kami dengan menghubungi kontak kami,...
+            </p>
+            
+        </div>
+        <div class="videoBx">
+            <img src="gambar/logo.jpeg" alt="Pempek Kemplang Kasiee">
+            <!--<video src="gambar/3D.mp4" muted autoplay loop type="mp4"></video>-->
+        </div>
+        
+    </div>
+</section>
+<!-- Program end-->
+
+<!--popular section-->
+<section class="galeri" id="galeri">
+    
+    <h1 class="heading"> Galeri <span>Produk</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <span class="price">Kasiee 1</span>
+            <img src="gambar/pro1.jpeg" alt="Pempek Kemplang Kasiee">
+           
+            <div class="isiBox">
+                <h3>Pempek Campur Isi</h3>
+                <p>20 pcs + cuko harga promo Rp 45.000 harga asli Rp 50.000</p>
+            </div> 
+        </div>
+
+        <div class="box">
+            <span class="price">Kasiee 2</span>
+            <img src="gambar/pro2.jpeg" alt="Pempek Kemplang Kasiee">
+           
+            <div class="isiBox">
+                <h3>Pempek Kulit</h3>
+                <p>Isi 10 pcs + cuko harga Rp 20.000</p>
+            </div> 
+        </div>
+
+        <div class="box">
+            <span class="price">Kasiee 3</span>
+            <img src="gambar/pro3.jpeg" alt="Pempek Kemplang Kasiee">
+           
+            <div class="isiBox">
+                <h3>Pempek Lenjer</h3>
+                <p>Isi 10 pcs + cuko harga Rp. 25.000</p>
+            </div> 
+        </div>
+
+        <div class="box">
+            <span class="price">Kasiee 4</span>
+            <img src="gambar/pro4.jpeg" alt="Pempek Kemplang Kasiee">
+           
+            <div class="isiBox">
+                <h3>Pempek Telor</h3>
+                <p>Isi 10 pcs + cuko harga Rp. 25.000</p>
+            </div> 
+        </div>
+
+        <div class="box">
+            <span class="price">Kasiee 5</span>
+            <img src="gambar/prok1.jpeg" alt="Pempek Kemplang Kasiee">
+           
+            <div class="isiBox">
+                <h3>Pempek Campur</h3>
+                <p>Isi 10 pcs + cuko harga Rp. 25.000</p>
+            </div> 
+        </div>
+
+        <div class="box">
+            <span class="price">Kasiee 6</span>
+            <img src="gambar/prok2.jpeg" alt="Pempek Kemplang Kasiee">
+           
+            <div class="isiBox">
+                <h3>Pempek Adaan</h3>
+                <p>Isi 5 pcs + 1 kulit + cuko harga Rp. 12.000</p>
+            </div> 
+        </div>
+
+        <div class="box">
+            <span class="price">Kasiee 7</span>
+            <img src="gambar/prok3.jpeg" alt="Pempek Kemplang Kasiee">
+           
+            <div class="isiBox">
+                <h3>Pempek Kapal Selam</h3>
+                <p>1 pcs + 1 kulit + cuko harga Rp. 12.000</p>
+            </div> 
+        </div>
+
+        <div class="box">
+            <span class="price">Kasiee 8</span>
+            <img src="gambar/prokp1.jpeg" alt="Pempek Kemplang Kasiee">
+           
+            <div class="isiBox">
+                <h3>Kemplang Tunu</h3>
+                <p>Isi 50 pcs + sambal harga Rp. 25.000</p>
+            </div> 
+        </div>
+
+        <div class="box">
+            <span class="price">Kasiee 9</span>
+            <img src="gambar/prokp2.jpeg" alt="Pempek Kemplang Kasiee">
+           
+            <div class="isiBox">
+                <h3>Kemplang Tunu</h3>
+                <p>Isi 50 pcs + sambal harga Rp. 25.000</p>
+            </div> 
+        </div>
+               
+    </div>
+    
+</section>
+<!-- galeri section end-->
+
+<!--steps section starts-->
+
+<section class="steps" id="steps">
+    <h1 class="heading">  <span>Langkah</span> Pemesanan</h1>
+
+    <div class="box-container">
+
+    <!--proses layanan-->
+    <div class="card">
+        <div class="circle" style="--clr:rgba(241, 155, 227, 0.9);">
+            <img src="https://img.freepik.com/free-vector/mobile-phone-background-design_1223-131.jpg?size=626&ext=jpg&uid=R96682043&ga=GA1.2.1737296402.1670565112&semt=ais" class="logo">
+        </div>
+        <div class="content">
+            <h2>Mengisi Form</h2>
+            <p>
+                Tahapan pertama untuk melakukan pemesanan anda bisa melakukan pengiriman permintaan 
+                dengan mengisi form dengan lengkap lalu kirim .
+            </p>
+        </div>
+        <img src="gambar/orang.gif" class="product_img" style="z-index: 1;">
+    </div>
+
+    <div class="card">
+        <div class="circle" style="--clr:rgba(6, 224, 251, 0.9);">
+            <img src="https://img.freepik.com/premium-vector/hand-holding-smartphone-icon-flat-style-incoming-message-vector-illustration-isolated-background-email-notification-sign-business-concept_157943-5702.jpg?size=626&ext=jpg&uid=R96682043&ga=GA1.2.1737296402.1670565112&semt=ais" class="logo">
+        </div>
+        <div class="content">
+            <h2>Respon Penjual</h2>
+            <p>
+                Penjual menerima pesan dari anda dan merespon dengan memberi jawaban pesanan anda akan segera dipersiapkan.
+            </p>
+        </div>
+        <img src="gambar/orangtelp.gif" class="product_img2" style="z-index: 2;">
+    </div>
+
+    <div class="card">
+        <div class="circle" style="--clr:rgba(147, 55, 216, 0.9);">
+            <img src="https://img.freepik.com/free-vector/quarantine-cooking-abstract-concept-illustration-family-recipe-cook-home-homemade-food-culinary-skills_335657-1063.jpg?size=626&ext=jpg&uid=R96682043&ga=GA1.2.1737296402.1670565112&semt=ais" class="logo">
+        </div>
+        <div class="content">
+            <h2>Mempersiapkan</h2>
+            <p>
+                Penjual mempersiapkan pesanan yang telah anda minta sesuai dengan keinginan anda.
+            </p>
+        </div>
+        <img src="gambar/masak1.gif" class="product_img3" style="z-index: 3;">
+    </div>
+
+    <div class="card">
+        <div class="circle" style="--clr:rgba(25, 240, 17, 0.9);">
+            <img src="https://img.freepik.com/free-vector/flat-design-cash-delivery_23-2148808917.jpg?w=740&t=st=1702817391~exp=1702817991~hmac=8681ea50335fcfbd64829ddeef749fc80e0d2cbe8048af42b59610b28e09a230" class="logo">
+        </div>
+        <div class="content">
+            <h2>Pengiriman</h2>
+            <p>
+                Pesanan siap diantarkan atau dikirim ke alamat tujuan anda sesuai dengan alamat data yang telah dikirim.
+                Harga belum termasuk ongkir.                
+            </p>
+        </div>
+        <img src="gambar/pengantaran1.gif" class="product_img4" style="z-index: 4;">
+    </div>
+    <!-- end proses layanan-->
+    </div>
+</section>
+
+<!--steps section starts end-->
+
+<!--kontak section-->
+<section class="kontak" id="kontak">
+
+    <h1 class="heading"> Kontak <span>Penjual</span></h1>
+
+    <div class="contacUs">
+                
+        <div class="box">
+    
+            <div class="contact form">
+                <h3>Kirim Pesan</h3>
+                <form>
+                    <div class="formBox">
+                        <div class="row50">
+                            <div class="inputBox">
+                                <span>Nama</span>
+                                <input type="text" id="nama" placeholder="tulis nama anda">
+                            </div>
+                            <div class="inputBox">
+                                <span>Alamat</span>
+                                <input type="text" id="alamat" placeholder="isi alamat lengkap">
+                            </div>
+                        </div>
+
+                        <div class="row50">
+                            <div class="inputBox">
+                                <span>Email</span>
+                                <input type="email" id="email" placeholder="isi email">
+                            </div>
+                            <div class="inputBox">
+                                <span>Telp.</span>
+                                <input type="number" id="telp" placeholder="isi nomor kontak">
+                            </div>
+                        </div>
+
+                        <div class="row100">
+                            <div class="inputBox">
+                                <span>Pesan</span>
+                                <textarea id="pesan" placeholder="Tulis pesan/pesanan anda di sini..."></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row100">
+                            <div class="inputBox">
+                                <input type="submit" onclick="whatsapp()" value="Kirim">
+                            </div>
+                        </div>
+                    </div>
+                </form>            
+            </div>
+    
+            <!-- info Box -->
+            <div class="contact info">
+                <h3>Info Kontak</h3>
+                <div class="infoBox">
+                    <div>
+                        <span><a href="https://maps.app.goo.gl/6pwKDADrnvuj6M2S6" target="_blank"> <ion-icon name="location"></ion-icon></a></span>
+                        <a href="https://maps.app.goo.gl/6pwKDADrnvuj6M2S6" target="_blank">
+                           Jl. Sosial Perumahan Griya Asri Blok L 79, Kel. Pulokerto, Kec. Gandus, Kota Palembang - Prov. Sumsel.
+                        </a>
+                    </div>
+    
+                    <div>
+                        <span><a href="https://wa.me/62885772539021" target="_blank"><ion-icon name="call"></ion-icon></a></span>
+                        <a href="https://wa.me/6281367663342" target="_blank">081367663342</a>
+                    </div>
+    
+                    <div>
+                        <span><ion-icon name="mail"></ion-icon></span>
+                        -,
+                    </div>
+                    
+                </div>
+            </div>
+    
+            <!-- Map -->
+            <div class="contact map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d996.0708682304341!2d104.68209436540023!3d-3.018311896957606!2m3!1f0!2f0!3f0!
+                3m2!1i1024!2i768!4f13.1!3m2!1m1!2zM8KwMDEnMDUuOSJTIDEwNMKwNDAnNTcuOSJF!5e0!3m2!1sid!2sid!4v1702799768903!5m2!1sid!2sid" 
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    
+        </div>
+    </div>
+    
+    </section>
+    <!--kontak section end-->
+
+    <!-- Footer -->
+    <section class="footer">
+        <a href="#" class="logo">
+            <img src="gambar/logo2.png" alt=""> Pempek Kemplang Kasiee  
+        </a>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.tiktok.com/@_put.raa?_t=8iBztu6LqcC&_r=1"><i class='bx bxl-tiktok'></i></a>
+        </div>
+    </section>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&#169; 2023 - Created by Gunad<span>Agp</span> | All rights reserved</p>
+    </div>
+
+
+<!--ccroll top buttom-->
+<a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+<!--ccroll top buttom end-->
+
+<!--loader-->
+<div class="loader-container">
+    <h1>Pempek Kemplang Kasiee</h1>
+    <h2>Kuliner Khas Palembang</h2>
+    <img src="gambar/logo2.png" alt="duta_utama_mebelindo">
+</div>
+
+<script>
+    function whatsapp(){
+        var nama = document.getElementById('nama').value;
+        var alamat = document.getElementById('alamat').value;
+        var email = document.getElementById('email').value;
+        var telp = document.getElementById('telp').value;
+        var pesan = document.getElementById('pesan').value;
+        
+        var whatsappurl="https://wa.me/6281367663342?text="
+        + "Nama : " + nama + "%0a"
+        + "Alamat : " + alamat + "%0a"
+        + "Email : " + email + "%0a"
+        + "Telpon : " + telp + "%0a"
+        + "Pesan : " + pesan;
+
+        window.open(whatsappurl,"_blank").focus();
+
+    }
+</script>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+ <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+ <!-- Link to Custom JS -->
+ <script src="main.js"></script>
+
+</body>
+</html>
